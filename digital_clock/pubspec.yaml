@@ -1,0 +1,37 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  weather_icons: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # Reference: https://www.pexels.com/search/cat/
+  assets:
+    - assets/images/cat0.jpg
+    - assets/images/cat1.jpg
+    - assets/images/cat2.jpg
+    - assets/images/cat3.jpg
+    - assets/images/cat4.jpg
+    - assets/images/cat5.jpg
+    - assets/images/cat6.jpg
+
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: third_party/PressStart2P-Regular.ttf
+
+    
